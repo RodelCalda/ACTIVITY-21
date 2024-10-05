@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OOCSS Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__content">
+            <h1 class="header__title">Welcome to OOCSS</h1>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="card">
+            <h2 class="card__title">Learn More About Us</h2>
+            <p class="card__description">Explore more details about what we do, how we operate, and the services we offer.</p>
+            <button class="btn btn--primary" onclick="learnMore()">Learn More</button>
+        </section>
+
+        <section class="card">
+            <h2 class="card__title">Explore New Features</h2>
+            <p class="card__description">Check out the latest features we’ve added and how you can make the most of them.</p>
+            <button class="btn btn--secondary" onclick="explore()">Explore</button>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__text">© 2024 OOCSS Example Of RODEL E. CALDA.</p>
+    </footer>
+
+    <script>
+        function learnMore() {
+            window.location.href = 'learn-more.html';
+        }
+
+        function explore() {
+            window.location.href = 'explore.html';
+        }
+    </script>
+</body>
+</html>
+
+
+
